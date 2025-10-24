@@ -143,7 +143,7 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/PROFILE_PIC_CROPPED.png"
+            src="/1761293238486.png"
             priority
             fill
             alt="Durga Prasad Kakileti's picture"
