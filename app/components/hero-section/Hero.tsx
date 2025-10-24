@@ -12,6 +12,7 @@ import { useEffect, useRef } from "react";
 import { useView } from "@/contexts/ViewContext";
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
+import Link from "next/link";
 import ContraButton from "../about-section/ContraButton";
 
 export default function Hero() {
@@ -125,9 +126,11 @@ export default function Hero() {
           className="w-fit mx-auto lg:mx-0"
         >
           {/* <ContraButton /> */}
-          <button className="bg-[#3C84C7] text-white px-6 py-2 rounded-md text-xl smm:text-2xl lg:text-3xl">
-            Hire Me
-          </button>
+          <Link href="https://drive.google.com/file/d/1zAFcL1478wVHRo1PzHwbDDx4WHqI45bg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <button className="bg-[#3C84C7] text-white px-6 py-2 rounded-md text-xl smm:text-2xl lg:text-3xl hover:bg-[#2c6ba8] transition-colors duration-300">
+    My Resume
+  </button>
+</Link>
         </motion.div>
       </div>
 

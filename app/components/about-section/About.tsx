@@ -42,8 +42,9 @@ export default function About() {
             From my education at Pydah College of Engineering to practical experience through internships and projects, I continuously strive to enhance my skills and deliver high-quality solutions. Wanna learn more? Here&apos;s <br className="hidden md:block" />
             <Link
               className="underline"
+              target="_blank"
               href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
+                "https://drive.google.com/file/d/1zAFcL1478wVHRo1PzHwbDDx4WHqI45bg/view"
               }
             >
               my résumè
