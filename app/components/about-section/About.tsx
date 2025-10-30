@@ -44,7 +44,7 @@ export default function About() {
               className="underline"
               target="_blank"
               href={
-                "https://drive.google.com/file/d/1zAFcL1478wVHRo1PzHwbDDx4WHqI45bg/view"
+                "https://drive.google.com/file/d/1rXjuBfxbQHLwz6edgR2DBSrhm-bRhuH5/view?usp=sharing"
               }
             >
               my résumè
